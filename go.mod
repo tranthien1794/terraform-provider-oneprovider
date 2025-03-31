@@ -1,4 +1,4 @@
-module github.com/yourusername/terraform-provider-oneprovider
+module github.com/tranthien1794/terraform-provider-oneprovider
 
 go 1.24.1
 
