@@ -4,7 +4,7 @@ import (
     "context" // Added missing import
     "github.com/hashicorp/terraform-plugin-framework/provider"
     "github.com/hashicorp/terraform-plugin-framework/providerserver"
-    "github.com/tranthien1794/terraform-provider-oneprovider"
+    //"github.com/tranthien1794/terraform-provider-oneprovider"
 )
 
 func main() {
