@@ -10,6 +10,12 @@ import (
     "github.com/hashicorp/terraform-plugin-framework/resource" // Added missing import
 )
 
+func (p *oneProvider) Resources(_ context.Context) []func() resource.Resource {
+    return []func() resource.Resource{
+        NewVMResource,
+    }
+}
+
 type oneProvider struct {
     client *http.Client
 }
