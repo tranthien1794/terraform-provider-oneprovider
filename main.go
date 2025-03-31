@@ -1,10 +1,10 @@
 package main
 
 import (
-    "context" // Added missing import
+    "context"
     "github.com/hashicorp/terraform-plugin-framework/provider"
     "github.com/hashicorp/terraform-plugin-framework/providerserver"
-    "github.com/tranthien1794/terraform-provider-oneprovider"
+    "github.com/tranthien1794/terraform-provider-oneprovider/oneprovider" // Updated import
 )
 
 func main() {
